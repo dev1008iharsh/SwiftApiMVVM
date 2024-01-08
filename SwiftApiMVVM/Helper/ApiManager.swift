@@ -25,7 +25,10 @@ class ApiManager{
    
     func fetchProductList(completion: @escaping Handler){
         
-        guard let url = URL(string: Constant.API.productURl) else { return }
+        guard let url = URL(string: Constant.API.productURl) else {
+            completion(.failure(.invalidURL))
+            return
+        }
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             //guard let data = data else { return }
