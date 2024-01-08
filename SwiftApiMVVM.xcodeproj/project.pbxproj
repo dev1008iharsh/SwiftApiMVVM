@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A5D3C2B4C74E30047BB48 /* AddProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5D3B2B4C74E30047BB48 /* AddProductVC.swift */; };
 		0429B9132B4BA05A00059209 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B9122B4BA05A00059209 /* Product.swift */; };
 		0429B9152B4BA99600059209 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B9142B4BA99600059209 /* ApiManager.swift */; };
 		0429B9172B4BAF5D00059209 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B9162B4BAF5D00059209 /* Constant.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040A5D3B2B4C74E30047BB48 /* AddProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductVC.swift; sourceTree = "<group>"; };
 		0429B9122B4BA05A00059209 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0429B9142B4BA99600059209 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		0429B9162B4BAF5D00059209 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				04CD9D892B4BC6490022B245 /* ProductListVC.swift */,
 				046853A22B4C08970055A116 /* ProductListCell.xib */,
 				046853A12B4C08970055A116 /* ProductListCell.swift */,
+				040A5D3B2B4C74E30047BB48 /* AddProductVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A5D3C2B4C74E30047BB48 /* AddProductVC.swift in Sources */,
 				0429B9152B4BA99600059209 /* ApiManager.swift in Sources */,
 				04775E782B492DE000E940DE /* AppDelegate.swift in Sources */,
 				0429B9192B4BBACF00059209 /* ProductViewModel.swift in Sources */,

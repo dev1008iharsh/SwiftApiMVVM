@@ -6,8 +6,7 @@
 //
 
 import Foundation
-import UIKit
-
+ 
 enum DataError : Error {
     case invalidRepsonse
     case invalidURL
